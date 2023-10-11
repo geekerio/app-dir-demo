@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f5edfb;
+  color: #2e2931;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 16px;
+}
+.tabs > .tab{
+  background-color: #f5edfb;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tabs-wrapper{
+  background-color: #c59650;
+  margin-top:20px;
+  padding: 16px;
+}
+.sub-tabs-wrapper{
+  margin-top: 20px;
+  background-color: #69ecc5;
+  padding: 16px;
+}
+.sub-tabs-wrapper-2{
+  
+  background-color: #f36e15;
+  padding: 16px;
+}
+
+
+
+.coinTabsBox {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.item-tab {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  grid-column-gap: 8px;
+  column-gap: 8px;
+
+}
+
+.item-tab-cell{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 14px;
+  font-weight: 600;
+  padding: 4px 8px;
+  grid-column-gap: 4px;
+  column-gap: 4px;
+  width: auto;
+  cursor:pointer;
+  vertical-align: middle;
+  border-radius: 4px;
+  flex-shrink:0;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #69ecc5;
+}
+
